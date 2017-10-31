@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网易云音乐</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+	</head>
+	<body>
+		<div id="header">
+			
+		</div>
+		<!--顶部导航list-->
+		<div id="navigat">
+			<div class="navigat-top">
+				<ul class="nav">
+					<li>
+						<a href="#" hidefocus="true" data-modlue = "discover" class="z-alt">
+							<em>推荐</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" hidefocus="true" data-modlue = "toplist">
+							<em>排行榜</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" hidefocus="true" data-modlue = "playlist">
+							<em>歌单</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" hidefocus="true" data-modlue = "djradio">
+							<em>主播电台</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" hidefocus="true" data-modlue = "artist">
+							<em>歌手</em>
+						</a>
+					</li>
+					<li>
+						<a href="#" hidefocus="true" data-modlue = "album">
+							<em>新碟上架</em>
+						</a>
+					</li> 
+				</ul>
+			</div>
+		</div>
+		<div id="banner">
+			<div class="wrap">
+				<!--轮播图-->
+				<div class="ban f-pr" style="left: -730px;">
+					<a href="javascript:;" hidefocus="true" class="active" target="_blank">
+						<img src="../img/index/p8.jpg" id="banner-img"/>
+					</a>
+					<a href="javascript:;" hidefocus="true" class="active" target="_blank">
+						<img src="../img/index/p1.jpg" id="banner-img"/>
+					</a>
+					<a href="javascript:;" hidefocus="true" class="active" target="_blank">
+						<img src="../img/index/p2.jpg" id="banner-img"/>
+					</a>
+					<a href="javascript:;" hidefocus="true" class="active" target="_blank">
+						<img src="../img/index/p3.jpg" id="banner-img"/>
+					</a>
+					<a href="javascript:;" hidefocus="true" class="active" target="_blank">
+						<img src="../img/index/p4.jpg" id="banner-img"/>
+					</a>
+					<a href="javascript:;" hidefocus="true" class="active" target="_blank">
+						<img src="../img/index/p5.jpg" id="banner-img"/>
+					</a>
+					<a href="javascript:;" hidefocus="true" class="active" target="_blank">
+						<img src="../img/index/p6.jpg" id="banner-img"/>
+					</a>
+					<a href="javascript:;" hidefocus="true" class="active" target="_blank">
+						<img src="../img/index/p7.jpg" id="banner-img"/>
+					</a>
+					<a href="javascript:;" hidefocus="true" class="active" target="_blank">
+						<img src="../img/index/p8.jpg" id="banner-img"/>
+					</a>
+					<a href="javascript:;" hidefocus="true" class="active" target="_blank">
+						<img src="../img/index/p1.jpg" id="banner-img"/>
+					</a>
+				</div>
+				<!--左右按钮-->
+				<div class="click-btn">
+					<a href="javascript:;" hidefocus="true" class="btnr f-alpha">></a>
+					<a href="javascript:;" hidefocus="true" class="btnl f-alpha"><</a>
+				</div>
+				<!--下标小圆点-->
+				<div class="dots">
+					<span class="pg on f-alpha" data-index = "0"></span>
+					<span class="pg f-alpha" data-index = "1"></span>
+					<span class="pg f-alpha" data-index = "2"></span>
+					<span class="pg f-alpha" data-index = "3"></span>
+					<span class="pg f-alpha" data-index = "4"></span>
+					<span class="pg f-alpha" data-index = "5"></span>
+					<span class="pg f-alpha" data-index = "6"></span>
+					<span class="pg f-alpha" data-index = "7"></span>
+				</div>
+				<!--下载图片、按钮-->
+				<div class="download">
+					<a href="/download" id="side-download" class="btn" hidefocus="true">下载客户端</a>
+					<p>PC 安卓 iPhone WP iPad Mac 六大客户端</p>
+					<span class="shadow f-alpha"></span>
+					<span class="shadowr f-alpha"></span>
+				</div>
+			</div>
+		</div>
+		<div id="discover-module" class="gbd">
+			<div class="gmn-left">
+				<div class="hot-recomm">
+					<div class="title s-bg">
+						<a href="#" class="tit f-ff2 f-tdn">热门推荐</a>
+						<ul>
+							<li>
+								<a href="#">华语</a>
+							</li>
+							<li>
+								<span>|</span>
+							</li>
+							<li>
+								<a href="#">流行</a>
+							</li>
+							<li>
+								<span>|</span>
+							</li>
+							<li>
+								<a href="#">摇滚</a>
+							</li>
+							<li>
+								<span>|</span>
+							</li>
+							<li>
+								<a href="#">民谣</a>
+							</li>
+							<li>
+								<span>|</span>
+							</li>
+							<li>
+								<a href="#">电子</a>
+							</li>
+						</ul>
+						<span class="more">
+							<a href="#" class="s-fc3">更多</a>
+							<i class="cor s-bg"></i>
+						</span>
+					</div>
+					<div class="recomm-list">
+						<ul>
+							<li>
+								<div class="u-cover">
+									<img src="../img/index/19146895486504148.jpg"/>
+									<a href="/" title="华语速爆新歌" class="msk" data-res-id = "listid"></a>
+									<div class="bottom">
+										<a class="icon-play f-fr" title="播放" href="javascript:;" data-res-id = "listid" data-action = "play"></a>
+										<span class="icon-headset"></span>
+										<span class="nb">2400万</span>
+									</div>
+									<p class="dec">
+										<a href="" title="华语速爆新歌" class="tit" href="#" data-res-id = "listid">华语速爆新歌</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="u-cover">
+									<img src="../img/index/19146895486504148.jpg"/>
+									<a href="/" title="华语速爆新歌" class="msk" data-res-id = "listid"></a>
+									<div class="bottom">
+										<a class="icon-play f-fr" title="播放" href="javascript:;" data-res-id = "listid" data-action = "play"></a>
+										<span class="icon-headset"></span>
+										<span class="nb">2400万</span>
+									</div>
+									<p class="dec">
+										<a href="" title="华语速爆新歌" class="tit" href="#" data-res-id = "listid">华语速爆新歌</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="u-cover">
+									<img src="../img/index/19146895486504148.jpg"/>
+									<a href="/" title="初识不知曲中意，再听已是曲中人" class="msk" data-res-id = "listid"></a>
+									<div class="bottom">
+										<a class="icon-play f-fr" title="播放" href="javascript:;" data-res-id = "listid" data-action = "play"></a>
+										<span class="icon-headset"></span>
+										<span class="nb">2400万</span>
+									</div>
+									<p class="dec">
+										<a href="" title="初识不知曲中意，再听已是曲中人" class="tit" href="#" data-res-id = "listid">初识不知曲中意，再听已是曲中人</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="u-cover">
+									<img src="../img/index/19146895486504148.jpg"/>
+									<a href="/" title="华语速爆新歌" class="msk" data-res-id = "listid"></a>
+									<div class="bottom">
+										<a class="icon-play f-fr" title="播放" href="javascript:;" data-res-id = "listid" data-action = "play"></a>
+										<span class="icon-headset"></span>
+										<span class="nb">2400万</span>
+									</div>
+									<p class="dec">
+										<a href="" title="华语速爆新歌" class="tit" href="#" data-res-id = "listid">华语速爆新歌</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="u-cover">
+									<img src="../img/index/19146895486504148.jpg"/>
+									<a href="/" title="华语速爆新歌" class="msk" data-res-id = "listid"></a>
+									<div class="bottom">
+										<a class="icon-play f-fr" title="播放" href="javascript:;" data-res-id = "listid" data-action = "play"></a>
+										<span class="icon-headset"></span>
+										<span class="nb">2400万</span>
+									</div>
+									<p class="dec">
+										<a href="" title="华语速爆新歌" class="tit" href="#" data-res-id = "listid">华语速爆新歌</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="u-cover">
+									<img src="../img/index/18821440046079366.jpg"/>
+									<a href="/" title="华语速爆新歌" class="msk" data-res-id = "listid"></a>
+									<div class="bottom">
+										<a class="icon-play f-fr" title="播放" href="javascript:;" data-res-id = "listid" data-action = "play"></a>
+										<span class="icon-headset"></span>
+										<span class="nb">2400万</span>
+									</div>
+									<p class="dec">
+										<a href="" title="华语速爆新歌" class="tit" href="#" data-res-id = "listid">华语速爆新歌</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="u-cover">
+									<img src="../img/index/19146895486504148.jpg"/>
+									<a href="/" title="华语速爆新歌" class="msk" data-res-id = "listid"></a>
+									<div class="bottom">
+										<a class="icon-play f-fr" title="播放" href="javascript:;" data-res-id = "listid" data-action = "play"></a>
+										<span class="icon-headset"></span>
+										<span class="nb">2400万</span>
+									</div>
+									<p class="dec">
+										<a href="" title="初识不知曲中意，再听已是曲中人" class="tit" href="#" data-res-id = "listid">初识不知曲中意，再听已是曲中人</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="u-cover">
+									<img src="../img/index/19146895486504148.jpg"/>
+									<a href="/" title="初识不知曲中意，再听已是曲中人" class="msk" data-res-id = "listid"></a>
+									<div class="bottom">
+										<a class="icon-play f-fr" title="播放" href="javascript:;" class data-res-id = "listid" data-action = "play"></a>
+										<span class="icon-headset"></span>
+										<span class="nb">2400万</span>
+									</div>
+									<p class="dec">
+										<a href="" title="初识不知曲中意，再听已是曲中人" class="tit s-fc0" href="#" data-res-id = "listid">初识不知曲中意，再听已是曲中人</a>
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="personal">
+					<div class="title s-bg">
+						<a href="#" class="tit f-ff2 f-tdn">个性化推荐</a>
+					</div>
+					<ul class="m-cvrlst m-cvrlst-idv f-cb">
+						<li>
+							<a href="#" title="每日歌曲推荐" class="date u-date f-alpha">
+								<span class="head">星期三</span>
+								<span class="bd">25</span>
+								<span class="mask f-alpha"></span>
+							</a>
+							<p class="dec">
+								<a href="#" class="tit s-fc0" title="每日歌曲推荐">每日歌曲推荐</a>
+							</p>
+							<p class="idv s-fc4">
+								根据你的口味生成，
+								<br>
+								每天6:00更新
+							</p>
+						</li>
+						<li data-res-action="log">
+							<div class="u-cover u-cover1">
+								<img src="../img/index/6632254138902295.jpg"/>
+								<a href="#" title="『以电影慰时光』华语怀旧文艺片原声精选" class="msk"></a>
+								<div class="bottom">
+									<a class="icon-play f-fr" title="播放" href="javascript:;" class data-res-id = "listid" data-action = "play"></a>
+									<span class="icon-headset"></span>
+									<span class="nb">2400万</span>
+								</div>
+							</div>
+							<p class="dec f-brk">
+								<a href="#" class="tit s-fc0" title="手把手教你撩到妹子">手把手教你撩到妹子</a>
+							</p>
+							<p class="idv f-brk s-fc4" title="根据你收藏的歌单《一首歌让你回到中学时代》推荐">
+								<em>根据你收藏的歌单《一首歌让你回到中学时代》推荐</em>
+								<a href="#" class="btn s-bg s-bg-13" data-alg="contextbased" data-index="0">不感兴趣</a>
+							</p>
+						</li>
+						<li data-res-action="log">
+							<div class="u-cover u-cover1">
+								<img src="../img/index/6632254138902295.jpg"/>
+								<a href="#" title="『以电影慰时光』华语怀旧文艺片原声精选" class="msk"></a>
+								<div class="bottom">
+									<a class="icon-play f-fr" title="播放" href="javascript:;" class data-res-id = "listid" data-action = "play"></a>
+									<span class="icon-headset"></span>
+									<span class="nb">2400万</span>
+								</div>
+							</div>
+							<p class="dec f-brk">
+								<a href="#" class="tit s-fc0" title="手把手教你撩到妹子">手把手教你撩到妹子</a>
+							</p>
+							<p class="idv f-brk s-fc4" title="根据你收藏的歌单《一首歌让你回到中学时代》推荐">
+								<em>根据你收藏的歌单《一首歌让你回到中学时代》推荐</em>
+								<a href="#" class="btn s-bg s-bg-13" data-alg="contextbased" data-index="0">不感兴趣</a>
+							</p>
+						</li>
+						<li data-res-action="log">
+							<div class="u-cover u-cover1">
+								<img src="../img/index/6632254138902295.jpg"/>
+								<a href="#" title="『以电影慰时光』华语怀旧文艺片原声精选" class="msk"></a>
+								<div class="bottom">
+									<a class="icon-play f-fr" title="播放" href="javascript:;" class data-res-id = "listid" data-action = "play"></a>
+									<span class="icon-headset"></span>
+									<span class="nb">2400万</span>
+								</div>
+							</div>
+							<p class="dec f-brk">
+								<a href="#" class="tit s-fc0" title="手把手教你撩到妹子">手把手教你撩到妹子</a>
+							</p>
+							<p class="idv f-brk s-fc4" title="根据你收藏的歌单《一首歌让你回到中学时代》推荐">
+								<em>根据你收藏的歌单《一首歌让你回到中学时代》推荐</em>
+								<a href="#" class="btn s-bg s-bg-13" data-alg="contextbased" data-index="0">不感兴趣</a>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="advertise">
+					<div class="adv-img">
+						<a href="https://www.kaola.com/activity/detail/30953.shtml?tag=39c18428bdd72630e076b136f47c6b31&__da_4cdeb8a1_57ce1a1cd2833c85#zid_8929396451">
+							<img src="../img/index/ad.bid.jpg"/>
+						</a>
+						<em></em>
+					</div>
+				</div>
+				<div class="newdish">
+					<div class="title s-bg">
+						<a href="#" class="tit f-ff2 f-tdn">新碟上架</a>
+						<span class="more">
+							<a href="#" class="s-fc3">更多</a>
+							<i class="cor s-bg"></i>
+						</span>
+					</div>
+					<div class="disk">
+						<div class="inner" id="album-roller">
+							<a href="javascript:;" hidefocus="true" class="click-flag pre s-bg s-bg-7 f-tdn"></a>
+							<div class="roll f-pr">
+								<ul class="f-cb roller-flag">
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163046613655.jpg" class="j-img"/>
+											<a href="#" title="15分钟的光芒" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="15分钟的光芒" class="s-fc0 tit">15分钟的光芒</a>
+										</p>
+										<p class="tit f-thide" title="许魏洲">
+											<a href="#" class="s-fc3">许魏洲</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163046613655.jpg" class="j-img"/>
+											<a href="#" title="15分钟的光芒" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="15分钟的光芒" class="s-fc0 tit">15分钟的光芒</a>
+										</p>
+										<p class="tit f-thide" title="许魏洲">
+											<a href="#" class="s-fc3">许魏洲</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163046613655.jpg" class="j-img"/>
+											<a href="#" title="15分钟的光芒" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="15分钟的光芒" class="s-fc0 tit">15分钟的光芒</a>
+										</p>
+										<p class="tit f-thide" title="许魏洲">
+											<a href="#" class="s-fc3">许魏洲</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163046613655.jpg" class="j-img"/>
+											<a href="#" title="15分钟的光芒" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="15分钟的光芒" class="s-fc0 tit">15分钟的光芒</a>
+										</p>
+										<p class="tit f-thide" title="许魏洲">
+											<a href="#" class="s-fc3">许魏洲</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163046613655.jpg" class="j-img"/>
+											<a href="#" title="15分钟的光芒" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="15分钟的光芒" class="s-fc0 tit">15分钟的光芒</a>
+										</p>
+										<p class="tit f-thide" title="许魏洲">
+											<a href="#" class="s-fc3">许魏洲</a>
+										</p>
+									</li>
+								</ul>
+								<ul class="f-cb roller-flag">
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163031971824.jpg" class="j-img"/>
+											<a href="#" title="C'mon in~" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="C'mon in~" class="s-fc0 tit">C'mon in~</a>
+										</p>
+										<p class="tit f-thide" title="陈奕迅">
+											<a href="#" class="s-fc3">陈奕迅</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163031971824.jpg" class="j-img"/>
+											<a href="#" title="C'mon in~" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="C'mon in~" class="s-fc0 tit">C'mon in~</a>
+										</p>
+										<p class="tit f-thide" title="陈奕迅">
+											<a href="#" class="s-fc3">陈奕迅</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163031971824.jpg" class="j-img"/>
+											<a href="#" title="C'mon in~" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="C'mon in~" class="s-fc0 tit">C'mon in~</a>
+										</p>
+										<p class="tit f-thide" title="陈奕迅">
+											<a href="#" class="s-fc3">陈奕迅</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163031971824.jpg" class="j-img"/>
+											<a href="#" title="C'mon in~" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="C'mon in~" class="s-fc0 tit">C'mon in~</a>
+										</p>
+										<p class="tit f-thide" title="陈奕迅">
+											<a href="#" class="s-fc3">陈奕迅</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163031971824.jpg" class="j-img"/>
+											<a href="#" title="C'mon in~" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="C'mon in~" class="s-fc0 tit">C'mon in~</a>
+										</p>
+										<p class="tit f-thide" title="陈奕迅">
+											<a href="#" class="s-fc3">陈奕迅</a>
+										</p>
+									</li>
+								</ul>
+								<ul class="f-cb roller-flag">
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163046613655.jpg" class="j-img"/>
+											<a href="#" title="15分钟的光芒" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="15分钟的光芒" class="s-fc0 tit">15分钟的光芒</a>
+										</p>
+										<p class="tit f-thide" title="许魏洲">
+											<a href="#" class="s-fc3">许魏洲</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163046613655.jpg" class="j-img"/>
+											<a href="#" title="15分钟的光芒" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="15分钟的光芒" class="s-fc0 tit">15分钟的光芒</a>
+										</p>
+										<p class="tit f-thide" title="许魏洲">
+											<a href="#" class="s-fc3">许魏洲</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163046613655.jpg" class="j-img"/>
+											<a href="#" title="15分钟的光芒" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="15分钟的光芒" class="s-fc0 tit">15分钟的光芒</a>
+										</p>
+										<p class="tit f-thide" title="许魏洲">
+											<a href="#" class="s-fc3">许魏洲</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163046613655.jpg" class="j-img"/>
+											<a href="#" title="15分钟的光芒" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="15分钟的光芒" class="s-fc0 tit">15分钟的光芒</a>
+										</p>
+										<p class="tit f-thide" title="许魏洲">
+											<a href="#" class="s-fc3">许魏洲</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163046613655.jpg" class="j-img"/>
+											<a href="#" title="15分钟的光芒" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="15分钟的光芒" class="s-fc0 tit">15分钟的光芒</a>
+										</p>
+										<p class="tit f-thide" title="许魏洲">
+											<a href="#" class="s-fc3">许魏洲</a>
+										</p>
+									</li>
+								</ul>
+								<ul class="f-cb roller-flag">
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163031971824.jpg" class="j-img"/>
+											<a href="#" title="C'mon in~" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="C'mon in~" class="s-fc0 tit">C'mon in~</a>
+										</p>
+										<p class="tit f-thide" title="陈奕迅">
+											<a href="#" class="s-fc3">陈奕迅</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163031971824.jpg" class="j-img"/>
+											<a href="#" title="C'mon in~" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="C'mon in~" class="s-fc0 tit">C'mon in~</a>
+										</p>
+										<p class="tit f-thide" title="陈奕迅">
+											<a href="#" class="s-fc3">陈奕迅</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163031971824.jpg" class="j-img"/>
+											<a href="#" title="C'mon in~" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="C'mon in~" class="s-fc0 tit">C'mon in~</a>
+										</p>
+										<p class="tit f-thide" title="陈奕迅">
+											<a href="#" class="s-fc3">陈奕迅</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163031971824.jpg" class="j-img"/>
+											<a href="#" title="C'mon in~" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="C'mon in~" class="s-fc0 tit">C'mon in~</a>
+										</p>
+										<p class="tit f-thide" title="陈奕迅">
+											<a href="#" class="s-fc3">陈奕迅</a>
+										</p>
+									</li>
+									<li>
+										<div class="u-cover u-cover-alb1">
+											<img src="../img/index/109951163031971824.jpg" class="j-img"/>
+											<a href="#" title="C'mon in~" class="msk"></a>
+											<a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-id="36650010" data-res-action="play"></a>
+										</div>
+										<p class="f-thide">
+											<a href="#" title="C'mon in~" class="s-fc0 tit">C'mon in~</a>
+										</p>
+										<p class="tit f-thide" title="陈奕迅">
+											<a href="#" class="s-fc3">陈奕迅</a>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<a href="javascript:;" hidefocus="true" class="click-flag nxt s-bg s-bg-8 f-tdn"></a>
+						</div>
+					</div>
+				</div>
+				<div class="bill">
+					<div class="title s-bg">
+						<a href="#" class="tit f-ff2 f-tdn">榜单</a>
+						<span class="more">
+							<a href="#" class="s-fc3">更多</a>
+							<i class="cor s-bg"></i>
+						</span>
+					</div>
+					<div class="blist" id="top-flag">
+						<dl class="blk">
+							<dt class="top">
+								<div class="cver u-cover u-cover-4">
+									<img class="j-img" src="../img/index/18696095720518497 (1).jpg"/>
+									<a href="#" class="msk" title="云音乐飙升榜"></a>
+								</div>
+								<div class="tit">
+									<a href="#" title="云音乐飙升榜">
+										<h3 class="f-fs1 f-thide">云音乐飙升榜</h3>
+									</a>
+									<div class="btn">
+										<a href="javascript:;" class="s-bg s-bg-9 f-tdn" title="播放" hidefocus="true" data-res-action="play" data-res-from="31">播放</a>
+										<a href="javascript:;" class="s-bg s-bg-10 f-tdn subscribe-flag " title="收藏" data-plid = "plid">收藏</a>
+									</div>
+								</div>
+							</dt>
+							<dd >
+								<ul>
+									<li>
+										<span class="no no-top">1</span>
+										<a href="#" class="nm s-fc0 f-thide" title="Wolves">Wolves</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no no-top">2</span>
+										<a href="#" class="nm s-fc0 f-thide" title="沉重">沉重</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no no-top">3</span>
+										<a href="#" class="nm s-fc0 f-thide" title="生日快乐">生日快乐</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">4</span>
+										<a href="#" class="nm s-fc0 f-thide" title="King of Underground">King of Underground</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">5</span>
+										<a href="#" class="nm s-fc0 f-thide" title="白羊">白羊</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">6</span>
+										<a href="#" class="nm s-fc0 f-thide" title="我在十点差三分的时候开始想你">我在十点差三分的时候开始想你</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">7</span>
+										<a href="#" class="nm s-fc0 f-thide" title="扬州姑娘">扬州姑娘</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">8</span>
+										<a href="#" class="nm s-fc0 f-thide" title="One More Light (Steve Aoki Chester Forever Remix)">One More Light (Steve Aoki Chester Forever Remix)</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">9</span>
+										<a href="#" class="nm s-fc0 f-thide" title="再见">再见</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">10</span>
+										<a href="#" class="nm s-fc0 f-thide" title="刚好">刚好</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+								</ul>
+								<div class="more">
+									<a href="#" class="s-fc0">查看更多></a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="blk">
+							<dt class="top">
+								<div class="cver u-cover u-cover-4">
+									<img class="j-img" src="../img/index/18740076185638788.jpg"/>
+									<a href="#" class="msk" title="云音乐新歌榜"></a>
+								</div>
+								<div class="tit">
+									<a href="#" title="云音乐新歌榜">
+										<h3 class="f-fs1 f-thide">云音乐新歌榜</h3>
+									</a>
+									<div class="btn">
+										<a href="javascript:;" class="s-bg s-bg-9 f-tdn" title="播放" hidefocus="true" data-res-action="play" data-res-from="31">播放</a>
+										<a href="javascript:;" class="s-bg s-bg-10 f-tdn subscribe-flag " title="收藏" data-plid = "plid">收藏</a>
+									</div>
+								</div>
+							</dt>
+							<dd >
+								<ul>
+									<li>
+										<span class="no no-top">1</span>
+										<a href="#" class="nm s-fc0 f-thide" title="Wolves">Wolves</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no no-top">2</span>
+										<a href="#" class="nm s-fc0 f-thide" title="沉重">沉重</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no no-top">3</span>
+										<a href="#" class="nm s-fc0 f-thide" title="生日快乐">生日快乐</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">4</span>
+										<a href="#" class="nm s-fc0 f-thide" title="King of Underground">King of Underground</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">5</span>
+										<a href="#" class="nm s-fc0 f-thide" title="白羊">白羊</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">6</span>
+										<a href="#" class="nm s-fc0 f-thide" title="我在十点差三分的时候开始想你">我在十点差三分的时候开始想你</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">7</span>
+										<a href="#" class="nm s-fc0 f-thide" title="扬州姑娘">扬州姑娘</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">8</span>
+										<a href="#" class="nm s-fc0 f-thide" title="One More Light (Steve Aoki Chester Forever Remix)">One More Light (Steve Aoki Chester Forever Remix)</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">9</span>
+										<a href="#" class="nm s-fc0 f-thide" title="再见">再见</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">10</span>
+										<a href="#" class="nm s-fc0 f-thide" title="刚好">刚好</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+								</ul>
+								<div class="more">
+									<a href="#" class="s-fc0">查看更多></a>
+								</div>
+							</dd>
+						</dl>
+						<dl class="blk blk-1">
+							<dt class="top">
+								<div class="cver u-cover u-cover-4">
+									<img class="j-img" src="../img/index/18713687906568048.jpg"/>
+									<a href="#" class="msk" title="网易原创歌曲榜"></a>
+								</div>
+								<div class="tit">
+									<a href="#" title="网易原创歌曲榜">
+										<h3 class="f-fs1 f-thide">网易原创歌曲榜</h3>
+									</a>
+									<div class="btn">
+										<a href="javascript:;" class="s-bg s-bg-9 f-tdn" title="播放" hidefocus="true" data-res-action="play" data-res-from="31">播放</a>
+										<a href="javascript:;" class="s-bg s-bg-10 f-tdn subscribe-flag " title="收藏" data-plid = "plid">收藏</a>
+									</div>
+								</div>
+							</dt>
+							<dd >
+								<ul>
+									<li>
+										<span class="no no-top">1</span>
+										<a href="#" class="nm s-fc0 f-thide" title="Wolves">Wolves</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no no-top">2</span>
+										<a href="#" class="nm s-fc0 f-thide" title="沉重">沉重</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no no-top">3</span>
+										<a href="#" class="nm s-fc0 f-thide" title="生日快乐">生日快乐</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">4</span>
+										<a href="#" class="nm s-fc0 f-thide" title="King of Underground">King of Underground</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">5</span>
+										<a href="#" class="nm s-fc0 f-thide" title="白羊">白羊</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">6</span>
+										<a href="#" class="nm s-fc0 f-thide" title="我在十点差三分的时候开始想你">我在十点差三分的时候开始想你</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">7</span>
+										<a href="#" class="nm s-fc0 f-thide" title="扬州姑娘">扬州姑娘</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">8</span>
+										<a href="#" class="nm s-fc0 f-thide" title="One More Light (Steve Aoki Chester Forever Remix)">One More Light (Steve Aoki Chester Forever Remix)</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">9</span>
+										<a href="#" class="nm s-fc0 f-thide" title="再见">再见</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+									<li>
+										<span class="no">10</span>
+										<a href="#" class="nm s-fc0 f-thide" title="刚好">刚好</a>
+										<div class="oper">
+											<a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true" data-res-action="play" data-res-data="19723756"></a>
+											<a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true" data-res-action="addto" data-res-from="31"></a>
+											<a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true" data-res-id="515269424" data-res-action="subscribe"></a>
+										</div>
+									</li>
+								</ul>
+								<div class="more">
+									<a href="#" class="s-fc0">查看更多></a>
+								</div>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="gmn-right">
+				<div class="n-myinfo n-myinfo-1 s-bg s-bg-1">
+					<p class="note s-fc3">登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+					<a href="#" id="index-enter-default" class="btn s-bg s-bg-2 f-tdn" tabindex="1">用户登录</a>
+				</div>
+				<div class="n-myinfo s-bg s-bg-5 on">
+					<div class="f-cb">
+						<a href="#" class="head f-pr">
+							<img src="../img/index/3437073356259449(1).jpg"/>
+						</a>
+						<div class="info">
+							<h4>
+								<a href="#" class="nm nm-icn f-fs1 f-ib f-thide">丶Yejishzhying</a>
+							</h4>
+							<p>
+								<a href="#" class="u-lv u-icn2 u-icn2-lv">7</a>
+								<i class="right u-icn2 u-icn2-lvright"></i>
+							</p>
+							<div class="btnwrap f-pr">
+								<a href="javascript:;" class="sign u-btn2 u-btn2-2" data-action="checkin">
+									<i>签  到</i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<ul class="dny s-fc3 f-cb">
+						<li class="fst">
+							<a href="#">
+								<strong id="even_count">1</strong>
+								<span>动态</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<strong id="even_count">2</strong>
+								<span>关注</span>
+							</a>
+						</li>
+						<li class="lst">
+							<a href="#">
+								<strong id="even_count">1</strong>
+								<span>粉丝</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="n-singer">
+					<h3 class="v-hd3">
+						<span class="f-f1">入驻歌手</span>
+						<a href="#" class="more s-fc3">查看全部 ></a>
+					</h3>
+					<ul class="n-enter f-cb" id="singer-list">
+						<li>
+							<a href="#" class="itm f-tdn">
+								<div class="head">
+									<img src="../img/index/5931865232210340.jpg" class="j-img"/>
+								</div>
+								<div class="ifo">
+									<h4>
+										<span class="nm f-fs1 f-ib f-thide">张惠妹aMEI</span>
+									</h4>
+									<p class="f-thide s-fc3">台湾歌手张惠妹</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="itm f-tdn">
+								<div class="head">
+									<img src="../img/index/5931865232210340.jpg" class="j-img"/>
+								</div>
+								<div class="ifo">
+									<h4>
+										<span class="nm f-fs1 f-ib f-thide">张惠妹aMEI</span>
+									</h4>
+									<p class="f-thide s-fc3">台湾歌手张惠妹</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="itm f-tdn">
+								<div class="head">
+									<img src="../img/index/5931865232210340.jpg" class="j-img"/>
+								</div>
+								<div class="ifo">
+									<h4>
+										<span class="nm f-fs1 f-ib f-thide">张惠妹aMEI</span>
+									</h4>
+									<p class="f-thide s-fc3">台湾歌手张惠妹</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="itm f-tdn">
+								<div class="head">
+									<img src="../img/index/7943971513291094.jpg" class="j-img"/>
+								</div>
+								<div class="ifo">
+									<h4>
+										<span class="nm f-fs1 f-ib f-thide">音乐人赵雷</span>
+									</h4>
+									<p class="f-thide s-fc3">民谣歌手</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="itm f-tdn">
+								<div class="head">
+									<img src="../img/index/5931865232210340.jpg" class="j-img"/>
+								</div>
+								<div class="ifo">
+									<h4>
+										<span class="nm f-fs1 f-ib f-thide">张惠妹aMEI</span>
+									</h4>
+									<p class="f-thide s-fc3">台湾歌手张惠妹</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<div>
+						<a href="#" target="_blank" hidefocus="true" class="u-btn2 u-btn2-1">
+							<i>申请成为网易音乐人</i>
+						</a>
+					</div>
+				</div>
+				<div class="n-dj n-dj-1">
+					<h3 class="v-hd3">热门主播</h3>
+					<ul class="n-hotdj f-cb" id="hotdj-list">
+						<li>
+							<a href="#" class="cver">
+								<img src="../img/index/1407374893913311.jpg"/>
+							</a>
+							<div class="info">
+								<p>
+									<a href="#" class="nm-icn f-thide s-fc0">陈立</a>
+									<sup class="u-icn u-icn-1 "></sup>
+								</p>
+								<p class="f-thide s-fc3">心理学家、美食家陈立教授</p>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="cver">
+								<img src="../img/index/1407374893913311.jpg"/>
+							</a>
+							<div class="info">
+								<p>
+									<a href="#" class="nm-icn f-thide s-fc0">陈立</a>
+									<sup class="u-icn u-icn-1 "></sup>
+								</p>
+								<p class="f-thide s-fc3">心理学家、美食家陈立教授</p>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="cver">
+								<img src="../img/index/1407374893913311.jpg"/>
+							</a>
+							<div class="info">
+								<p>
+									<a href="#" class="nm-icn f-thide s-fc0">陈立</a>
+									<sup class="u-icn u-icn-1 "></sup>
+								</p>
+								<p class="f-thide s-fc3">心理学家、美食家陈立教授</p>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="cver">
+								<img src="../img/index/1407374893913311.jpg"/>
+							</a>
+							<div class="info">
+								<p>
+									<a href="#" class="nm-icn f-thide s-fc0">陈立</a>
+									<sup class="u-icn u-icn-1 "></sup>
+								</p>
+								<p class="f-thide s-fc3">心理学家、美食家陈立教授</p>
+							</div>
+						</li>
+						<li>
+							<a href="#" class="cver">
+								<img src="../img/index/1407374893913311.jpg"/>
+							</a>
+							<div class="info">
+								<p>
+									<a href="#" class="nm-icn f-thide s-fc0">陈立</a>
+									<sup class="u-icn u-icn-1 "></sup>
+								</p>
+								<p class="f-thide s-fc3">心理学家、美食家陈立教授</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--加载底部-->
+		<div id="footer">
+				
+		</div>
+		<!--播放条-->
+		<div class="g-btmbar">
+			<div class="m-playbar m-playbar-lock" id="auto-id-play">
+				<div class="updn">
+					<div class="left f-f1">
+						<a href="javascript:;" class="btn" hidefocus="true" data-action="lock"></a>
+					</div>
+					<div class="right f-f1"></div>
+				</div>
+				<div class="bg"></div>
+				<div class="hand" title="展开播放条"></div>
+				<div class="wrap" id="g_play">
+					<div class="btns">
+						<a href="javascript:;" hidefocus="true" data-action = "prev" class="prv" title="上一首(ctrl+←)">上一首</a>
+						<a href="javascript:;" hidefocus="true" data-action = "play" class="ply j-flag" title="播放/暂停(p)">播放/暂停</a>
+						<a href="javascript:;" hidefocus="true" data-action = "next" class="nxt" title="下一首(ctrl+→)">下一首</a>
+					</div>
+					<div class="hend j-flag">
+						<img src="../img/index/6011030069704656.jpg"/>
+						<a href="#" class="mask" hidefocus="true"></a>
+					</div>
+					<div class="play">
+						<div class="j-flag words">
+							<a href="#" class="f-thide name fc1 f-fl" title="情书">情书</a>
+							<span class="by f-thide f-fl">
+								<span title="腰乐队">
+									<a href="#" hidefocus="true">腰乐队</a>
+								</span>
+							</span>
+							<a href="#" class="src" title="来自歌单"></a>
+						</div>
+						<div class="m-pbar" data-action="noop">
+							<div class="barbg j-flag" id="play-bargb">
+								<div class="rdy" style="width: 0%;"></div>
+								<div class="cur" style="width: 0%;">
+									<span class="btn f-tdn f-alpha" id="play-btn">
+										<i></i>
+									</span>
+								</div>
+							</div>
+							<span class="j-flag time">
+								<em>00:00</em>
+								/00:00
+							</span>
+						</div>
+					</div>
+					<div class="oper f-fl">
+						<a href="javascript:;" hidefocus="true" data-action="like" class="icn icn-add j-flag" title="收藏">收藏</a>
+						<a href="javascript:;" hidefocus="true" data-action="share" class="icn icn-share" title="分享">分享</a>
+					</div>
+					<div class="ctrl f-fl f-pr j-flag">
+						<div class="m-vol" style="visibility: hidden;" id="vol-div">
+							<div class="barbg" ></div>
+							<div class="vbg j-t" id="volbg-div">
+								<div class="curr j-t" style="height: 93px;"></div>
+								<span class="btn f-alpha j-t" style="top: 0px;"></span>
+							</div>
+						</div>
+						<a href="javascript:;" hidefocus="true" class="icn icn-vol" data-action="volume"></a>
+						<a href="javascript:;" hidefocus="true" class="icn icn-shuffle" data-action="mode" title="循环"></a>
+						<span class="add f-pr">
+							<span class="tip" style="display: none;">已添加到播放列表</span>
+							<a href="javascript:;" hidefocus="true" title="播放列表" data-action="panel" class="icn icn-list s-fc3">132</a>
+						</span>
+						<div class="tip tip-1" style="display: none;">
+							循环
+						</div>
+					</div>
+				</div>
+			<!--<div class="list" id="g_playlist">
+					<div class="listhd">
+						<div class="listhdc">
+							<h4>
+								播放列表(
+								<span class="j-flag">132</span>
+								)
+							</h4>
+							<a href="javascript:;" class="addall" data-action="likeall">
+								<span class="ico ico-add"></span>
+								收藏全部
+							</a>
+							<span class="line"></span>
+							<a href="javascipt:;" class="clear" data-action = "clear">
+								<span class="ico ico-del"></span>
+								清除
+							</a>
+							<p class="lytit f-ff0 f-thide j-flag">情书</p>
+							<span class="close" data-action = "close">关闭</span>
+						</div>
+					</div>
+					<div class="listbd">
+						<img src="../img/index/picture.png" class="imgbg j-flag" id="list-img" style="top: -360px;"/>
+						<div class="msk"></div>
+					</div>
+				</div>-->
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/jquery-3.2.1.js" ></script>
+		<script type="text/javascript" src="../js/header.js" ></script>
+		<script type="text/javascript" src="../js/footer.js" ></script>
+	</body>
+</html>

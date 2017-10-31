@@ -1,0 +1,13 @@
+(()=>{
+	//加载顶部数据
+	$.ajax({
+		type:"get",
+		url:"../html/header.html",
+		success:function(html){
+			$("#header").html(html);
+		},
+		error:function(){
+			alert("网络错误！");
+		}
+	});
+})();

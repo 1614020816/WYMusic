@@ -1,0 +1,191 @@
+#head{
+	width: 100%;
+	height: 70px;
+	background: #242424;
+	margin: 0 auto;	
+}
+#head div.head-top{
+	width: 1100px;
+	margin: 0 auto;
+}
+#head div.head-top .logo a{
+	display: block;
+	float: left;
+	width: 170px;
+	height: 70px;
+	background: url(../img/header/topbar.png) no-repeat 0 0px;
+}
+#head div.head-top .ul-list{
+	float: left;
+	margin-left: 0;
+	height: 70px;
+}
+#head div.head-top .hot{
+	margin-left: -10px;
+	float: left;
+	width: 30px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+#head div.head-top .hot>em{
+	display: block;
+	width: 30px;
+	height: 70px;
+	background: url(../img/header/topbar.png) no-repeat -190px 21px;
+	position: absolute;
+}
+#head div.head-top .ul-list ul.list{
+	width: 510px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+#head div.head-top .ul-list ul.list a{
+	font-size: 14px;
+	text-align: center;
+	line-height: 70px;
+	padding: 0 19px;
+	color: #cccccc;
+}
+#head div.head-top .ul-list ul.list a.change{
+	color: #FFFFFF;
+}
+#head div.head-top .ul-list ul.list li.checked,#head div.head-top .ul-list ul.list li:hover,#head div.head-top .ul-list ul.list li:hover>a{
+	background: #000000;
+	color: #FFFFFF;
+}
+#head div.head-top .ul-list ul.list li{
+	position: relative;
+}
+#head div.head-top .ul-list ul.list em{
+	position: absolute;
+	color: #ccc;
+	left: 50%;
+	top:64px;
+	width: 12px;
+	height: 7px;
+	margin-left: -6px;
+	background: url(../img/header/topbar.png) no-repeat -226px 0px;
+	display: none;
+}
+#head div.head-top .ul-list ul.list em.show{
+	display:inline-block;
+}
+#head .head-list{
+	float: right;
+	display: flex;
+	justify-content: flex-end;
+	height: 70px;
+	line-height: 70px;
+}
+#head .head-list div.video a{
+	display: block;
+	width: 90px;
+	height: 32px;
+	margin-top: 20px;
+	line-height: 32px;
+	box-sizing: border-box;
+	padding-left: 30px;
+	color: #CCCCCC;
+	background: url(../img/header/topbar.png) no-repeat 0 -140px;
+	margin-right: 22px;
+	
+}
+#head .head-list div.video a:hover{
+	background-position: -100px -140px;
+	color:#FFFFFF;
+}
+#head .head-list .check-input input{
+	box-sizing: border-box;
+	padding-left: 30px;
+	padding-right: 10px;
+	width: 158px;
+	height:32px ;
+	border-radius: 20px;
+	margin-right: 15px;
+	border: none;
+	background: url(../img/header/topbar.png) no-repeat 0 -98px;
+	background-color: #fff;
+}
+#head .head-list .login .login_href{
+	color: #787878;
+	display: block;
+	width: 28px;
+	margin-top: 4px;
+}
+#head .head-list .login .login_btn{
+	background: url(../img/header/topbar.png) no-repeat -196px -28px;
+	padding-right: 22px;
+	position: relative;
+}
+#head .head-list .login .login_href:hover{
+	text-decoration: underline;
+}
+#head .head-list .login .list-key{
+	display: none;
+}
+#head .head-list .login .login_btn:hover .list-key{
+	display: block;
+}
+#head .head-list .login ul.login_list{
+	position: absolute;
+	line-height: 1;
+	background: #2B2B2B;
+	right: -42px;
+	width: 158px;
+	border: 1px solid #202020;
+	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.5);
+	border-radius: 4px;
+	top: 55px;
+}
+#head .head-list .login ul.login_list>li{
+	box-sizing: border-box;
+	padding: 13px 0;
+	border-bottom: 1px solid #202020;
+}
+#head .head-list .login ul.login_list>li:hover{
+	background: #353535;
+}
+#head .head-list .login ul.login_list>li:hover>a>em{
+	color: #FFFFFF;
+}
+#head .head-list .login ul.login_list>li:last-child{
+	border-bottom: 0px;
+}
+#head .head-list .login ul.login_list>li>a>em{
+	color: #CCCCCC;
+}
+#head .head-list .login i.arr{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top:48px;
+	left: 5px;
+	background: url(../img/header/toplist.png) no-repeat -22px 0;
+	z-index: 10;
+}
+#head .head-list .login ul.login_list i.icn{
+	float:left;
+	width: 18px;
+	height: 18px;
+	margin: -2px 10px 0 15px;
+	background: url(../img/header/toplist.png) no-repeat 0 9999px;
+}
+#head .head-list .login ul.login_list i.icn-mb{
+	background-position: 0 0;
+}
+#head .head-list .login ul.login_list i.icn-wx{
+	background-position: -20px -22px;
+}
+#head .head-list .login ul.login_list i.icn-qq{
+	background-position: -19px -42px;
+}
+#head .head-list .login ul.login_list i.icn-xinlang{
+	background-position: 0px -22px;
+}
+#head .head-list .login ul.login_list i.icn-163{
+	background-position: 0px -42px;
+}
+
+

@@ -1,0 +1,13 @@
+(()=>{
+	//加载底部
+	$.ajax({
+		type:"get",
+		url:"../html/footer.html",
+		success:function(html){
+			$("#footer").html(html);
+		},
+		error:function(){
+			alert("网络错误！");
+		}
+	});
+})();

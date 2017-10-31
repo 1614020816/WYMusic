@@ -1,0 +1,52 @@
+#foot{
+	background: #F2F2F2;
+	border-top: 1px solid #d3d3d3;
+}
+#foot .foot-top{
+	width: 980px;
+	height: 140px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+#foot .foot-top .top-title{
+	margin-top: 35px;
+	line-height: 24px;
+}
+#foot .foot-top .top-title .first-p a{
+	color: #999;
+}
+#foot .foot-top .top-title a:hover{
+	text-decoration: underline;
+}
+#foot .foot-top .top-title .first-p span{
+	color: #c2c2c2;
+	margin: 0 8px 0 10px;
+}
+#foot .foot-top .top-title .last-p,#foot .foot-top .top-title .last-p a{
+	color: #666;
+}
+#foot .foot-top .top-pic ul>li{
+	float: left;
+}
+#foot .foot-top .top-pic ul>li>a{
+	display: block;
+	width: 60px;
+	height: 70px;
+	margin-left: 30px;
+	margin-top: 21px;
+	background: url(../img/footer/foot_enter.png) no-repeat 0 0px;
+	text-indent: -9999px;
+}
+#foot .foot-top .top-pic ul>li>a.logo-musician{
+	background-position: -60px -80px;
+}
+#foot .foot-top .top-pic ul>li>a.logo-topic{
+	background-position: 0px -80px;
+}
+#foot .foot-top .top-pic ul>li>a.logo-reward{
+	background-position: -60px 0;
+}
+
+
+
