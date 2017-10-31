@@ -8,7 +8,7 @@ function ajax(method,url,postStr,dataType="json"){
         return new ActiveXObject("Microsoft.XMLHttp");
       }
     })();
-    //2、创建请求
+    //2、创建请求     请求创建不了啦
     xhr.open(method,url,true);
     
     //4、设置请求消息头
@@ -33,5 +33,5 @@ function ajax(method,url,postStr,dataType="json"){
     }
     //5、发送
     xhr.send(postStr);
-  })
-}
+  });
+};
