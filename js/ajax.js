@@ -1,6 +1,6 @@
 function ajax(method,url,postStr,dataType="json"){
   return new Promise((resolve,reject)=>{
-    //1、获取 xhr
+    //1、获取 xhr lalalal 
     var xhr = (function(){
       if(window.XMLHttpRequest){
         return new XMLHttpRequest();
