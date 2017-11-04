@@ -187,5 +187,43 @@
 #head .head-list .login ul.login_list i.icn-163{
 	background-position: 0px -42px;
 }
+.m-subnav{
+	height: 5px;
+	z-index: 90;
+	background-color: #C20C0C;
+}
+.on{
+	display: none;
+}
+#navigat{
+	background: #C20C0C;
+	border-bottom: 1px solid #a40011;
+}
+#navigat .navigat-top{
+	width: 1100px;
+	height: 34px;
+	margin: 0 auto;
+}
+#navigat .navigat-top ul.nav{
+	float: left;
+	margin-left: 180px;
+}
+#navigat .navigat-top ul.nav li{
+	float: left;
+	height: 34px;
+	text-align: center;
+}
+#navigat .navigat-top ul.nav li>a>em{
+	display: inline-block;
+	padding: 0 13px;
+	margin: 7px 17px 0;
+	height: 20px;
+	line-height: 21px;
+	border-radius: 20px;
+	color: #fff;
+}
+#navigat .navigat-top ul.nav li>a.z-alt>em,#navigat .navigat-top ul.nav li>a:hover>em{
+	background: #9B0909;
+}
 
 
