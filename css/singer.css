@@ -9,6 +9,9 @@ body{
     height: 0;
     visibility: hidden;
 }
+.g-bd2 {
+    background: url(../img/singer/wrap2.png) repeat-y center 0;
+}
 .g-bd2{
     width: 980px;
     min-height: 700px;
@@ -16,6 +19,9 @@ body{
     background-color: #ffffff;
     border: 1px solid #d3d3d3;
     border-width: 0 1px; 
+}
+.g-bd2 a:hover{
+	text-decoration: underline;
 }
 .g-sd2{
     position: relative;
@@ -25,7 +31,7 @@ body{
 .n-sgernav{
     margin-top: 51px;
 }
-.n-wrap4{
+.g-wrap4{
     padding: 0 10px 40px;
 }
 .n-sgernav .tit {
@@ -45,4 +51,168 @@ body{
 }
 .n-sgernav li a {
     background: url(../img/singer/singer.png) no-repeat 0 9999px;
+}
+.n-sgernav li, .n-sgernav li a {
+    float: left;
+    width: 160px;
+    height: 29px;
+    line-height: 29px;
+}
+.n-sgernav li a {
+    width: 133px;
+    padding-left: 27px;
+    background-position: 0 -30px;
+    color: #333;
+}
+.n-sgernav li a.z-slt, .n-sgernav li a.z-slt:hover {
+    background-position: 0 0;
+    text-decoration: none;
+    color: #c20c0c;
+}
+.n-sgernav .blk {
+    margin: 5px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid #d3d3d3;
+}
+.g-mn2{
+	float: left;
+	width: 100%;
+	margin-left: -181px;
+}
+.g-mn2c {
+    margin-left: 181px;
+}
+.g-wrap{
+	padding: 40px;
+}
+.u-title{
+	height: 40px;
+	border-bottom: 2px solid #C20C0C;
+}
+.u-title h3{
+	float: left;
+	font-size: 24px;
+	font-weight: normal;
+}
+.f-ff2 {
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+.s-fc3, a.s-fc3:hover {
+    color: #666;
+}
+.u-title .more {
+    float: right;
+    margin-top: 14px;
+}
+.m-sgerlist .m-cvrlst {
+    margin: 20px 0 0 -17px;
+}
+.m-cvrlst li {
+    float: left;
+    display: inline-block;
+    width: 140px;
+    height: 188px;
+    overflow: hidden;
+    padding: 0 0 30px 50px;
+    line-height: 1.4;
+}
+.m-cvrlst-5 li {
+    width: 130px;
+    height: 154px;
+}
+.m-sgerlist .m-cvrlst li {
+    padding-left: 17px;
+}
+.u-cover {
+    position: relative;
+    display: block;
+}
+.u-cover-5 {
+    width: 130px;
+    height: 130px;
+}
+.u-cover img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.u-cover .bottom, .u-cover .msk, .n-musicsd .lst .avatar .msk {
+	background: url(../img/index/coverall.png) no-repeat;
+}
+.u-cover .msk{
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.u-cover-5 .msk {
+    background-position: 0 -680px;
+}
+.m-cvrlst li p {
+    width: 100%;
+}
+.m-sgerlist .m-cvrlst li p {
+    margin-top: 8px;
+}
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.s-fc0, a.s-fc0:hover {
+    color: #000;
+}
+.m-cvrlst li .nm {
+    display: inline-block;
+    max-width: 85%;
+    vertical-align: middle;
+}
+.m-cvrlst li .nm-icn {
+    max-width: 76%;
+}
+.m-cvrlst-5 li .nm-icn {
+    float: left;
+    max-width: 80%;
+}
+.u-icn, .u-title-1 .out .icon {
+    background: url(../img/index/icon.png) no-repeat 0 9999px;
+}
+.u-icn, .u-icn2, .u-icn3 {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.u-icn-5 {
+    width: 17px;
+    height: 18px;
+    background-position: 0 -740px;
+}
+.m-cvrlst-5 li .u-icn-5 {
+    position: relative;
+    float: right;
+}
+.m-cvrlst li p .u-icn {
+    margin-top: -1px;
+}
+.m-cvrlst li.line {
+    margin-bottom: 12px;
+    border-bottom: 1px dotted #999;
+}
+.m-sgerlist .m-cvrlst li {
+    padding-left: 17px;
+}
+.m-cvrlst li.sml {
+    height: 30px;
+    width: 130px;
+    padding-bottom: 0;
+    line-height: 23px;
+}
+.m-sgerlist .m-cvrlst li {
+    padding-left: 17px;
+}
+.m-cvrlst-5 li.sml .u-icn-5 {
+    float: left;
+    margin: 4px 0 0 2px;
 }
