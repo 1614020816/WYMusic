@@ -9,98 +9,194 @@ body{
     height: 0;
     visibility: hidden;
 }
-.s-fc4,a.s-fc4:hover{
-	color: #999;
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
 }
-.f-ff2 {
-    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+.g-mymusic {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    zoom: 1;
+}
+.g-bd3 {
+    background: url(../img/musicTop/wrap3.png) repeat-y center 0;
 }
 .g-bd3{
-	width: 980px;
-	min-height: 700px;
-	margin:  0 auto;
-	border: 1px solid #D3D3D3;
-	border-width: 0 1px ;
-	background: url(../img/musicTop/wrap3.png) repeat-y center 0;
+    width: 980px;
+    min-height: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px; 
 }
-.g-sd3{
-	float: left;
-	width: 240px;
-	position: fixed;
+.f-pr {
+    position: relative;
+    zoom: 1;
 }
-.g-sd3-1{
-	position: static;
+.g-sd3 {
+    float: left;
+    width: 240px;
+    position: fixed;
 }
-.n-minelst-2{
-	margin-top: 20px;
+.n-musicsd {
+    padding-bottom: 50px;
+    padding-top: 40px;
 }
-.f-ff1{
-	font-family: simsun,\5b8b\4f53;
+.p-mymusic .g-sd3 {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
-.n-minelst h2{
-	padding: 0 10px 12px 15px;
-	font-size: 14px;
-	color: #000;
+.n-musicsd .usersub {
+    position: relative;
+    height: 36px;
+    line-height: 36px;
 }
-.n-minelst ul *{
-	cursor: pointer;
-	vertical-align: middle;
+.f-ff1 {
+    font-family: simsun,\5b8b\4f53;
 }
-.n-minelst li{
-	position: relative;
-	zoom: 1;
-	height: 40px;
-	padding: 6px 0 6px 20px;
+.f-fs1 {
+    font-size: 14px;
 }
-.n-minelst-2 li{
-	padding: 10px 0 10px 20px;
+.s-fc0, a.s-fc0:hover {
+    color: #000;
+}
+.n-musicsd .usersub a {
+    display: block;
+    padding: 0 5px 2px 35px;
+}
+.n-minelst-1 {
+    margin-top: 5px;
+}
+.n-minelst h2 {
+    padding: 0 10px 12px 15px;
+    font-size: 14px;
+    color: #000;
+}
+.f-fr {
+    float: right;
+}
+.u-btn, div.u-page a, div.u-page a.js-selected, div.u-page a.znxt.js-disabled, div.u-page a.zprv.js-disabled {
+    background: url(../img/musicTop/button.png) no-repeat 0 9999px;
+}
+.u-btn {
+    display: inline-block;
+}
+.u-btn-crt {
+    width: 52px;
+    height: 22px;
+    background-position: 0 -96px;
+}
+.u-btn-crt i {
+    display: inline-block;
+    line-height: 22px;
+    overflow: hidden;
+    padding-left: 20px;
+    color: #515151;
+    font-size: 12px;
+    font-weight: normal;
+}
+.n-minelst .rtitle {
+    cursor: pointer;
+}
+.n-minelst .tri {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2px 0 5px;
+    cursor: pointer;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+}
+.n-minelst .tri1 {
+    border-color: #ccc transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 8px 7px 0;
+}
+.n-minelst ul * {
+    cursor: pointer;
+    vertical-align: middle;
+}
+.n-minelst li {
+    position: relative;
+    zoom: 1;
+    height: 42px;
+    padding: 6px 0 6px 20px;
 }
 .n-minelst li:hover{
-	background: #F4F2F2;
+	background-color: #F4F2F2;
 }
-.n-minelst li.z-selected, .n-minelst li.z-selected:hover{
-	background: #e6e6e6;
+.n-minelst li.z-selected, .n-minelst li.z-selected:hover {
+    background: #e6e6e6;
 }
-.n-minelst .item{
-	padding-left: 50px;
+.n-minelst .item {
+    padding-left: 50px;
 }
-.n-minelst .left{
-	display: inline;
-	float: left;
-	margin-left: -50px;
-	overflow: hidden;
-	width: 40px;
+.n-minelst .left {
+    display: inline;
+    float: left;
+    margin-left: -50px;
+    overflow: hidden;
+    width: 40px;
 }
-.n-minelst .avatar{
-	display: block;
-	position: relative;
-	width: 40px;
-	height: 40px;
-}
-.n-minelst .avatar img{
-	width: 40px;
-	height: 40px;
-}
-.n-minelst .avatar .msk {
-    position: absolute;
-    top: 0;
-    left: 0;
+.n-minelst .avatar {
     display: block;
-    width: 100%;
-    height: 100%;
-    background-position: -310px -330px;
+    position: relative;
+    width: 40px;
+    height: 40px;
 }
-.n-minelst .name{
-	width: 150px;
-	overflow: hidden;
-	margin-top: 2px;
-	margin-bottom: 8px;
+.n-minelst .avatar img {
+    width: 40px;
+    height: 40px;
 }
-.n-minelst .name a{
-	white-space: nowrap;
+.n-minelst .name {
+    width: 150px;
+    overflow: hidden;
+    margin-top: 2px;
+    margin-bottom: 8px;
 }
-.n-minelst h2.scd{
-	margin-top: 20px;
+.n-minelst .name a {
+    white-space: nowrap;
+}
+.s-fc4, a.s-fc4:hover {
+    color: #999;
+}
+.n-minelst .num {
+    width: 130px;
+}
+.n-minelst .oper {
+	display: none;
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+}
+.n-minelst li:hover .oper{
+	display: block;
+}
+.u-icn, .u-title-1 .out .icon {
+    background: url(../img/index/icon.png) no-repeat 0 9999px;
+}
+.u-icn, .u-icn2, .u-icn3 {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.u-icn-10 {
+    width: 13px;
+    height: 13px;
+    background-position: 0 -270px;
+}
+.u-icn-11 {
+    width: 13px;
+    height: 14px;
+    background-position: 0 -284px;
+}
+.n-minelst .oper .u-icn {
+    float: left;
+    margin-right: 10px;
 }
 .g-mn3{
 	height: 100%;
@@ -111,98 +207,102 @@ body{
 .g-wrap{
 	padding: 40px;
 }
-.u-cover .bottom, .u-cover .msk, .n-musicsd .lst .avatar .msk{
-	background: url(../img/index/coverall.png) no-repeat;
+.u-cover {
+    position: relative;
+    display: block;
 }
-.u-cover img{
-	display: block;
-	height: 100%;
-	height: 100%;
+.u-cover-dj {
+    width: 200px;
+    height: 200px;
 }
-.u-cover-rank, .u-cover-rank img{
-	width: 150px;
-	height: 150px;
+.m-info .cover {
+    float: left;
+    position: relative;
+    display: inline;
+    margin: 0 -220px 0 0;
 }
-.u-cover-rank{
-	padding: 3px;
-	border: 1px solid #ccc;
+img, .txt {
+    border: 0;
 }
-.m-info .cover{
-	float: left;
-	position: relative;
-	display: inline;
-	margin: 0 -220px 0 0 ;
+.u-cover img {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
-.u-cover .msk{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.u-cover .bottom, .u-cover .msk, .n-musicsd .lst .avatar .msk {
+    background: url(../img/index/coverall.png) no-repeat;
 }
-.u-cover-rank .msk{
-	width: 150px;
-	height: 150px;
-	top: 3px;
-	left: 3px;
-	background-position: -230px -380px;
+.u-cover .msk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}	 
+.u-cover-dj .msk {
+    width: 208px;
+    height: 208px;
+    background-position: 0 -1285px;
+    top: -4px;
+    left: -4px;
 }
-.u-icn, .u-title-1 .out .icon{
-	background: url(../img/index/icon.png) no-repeat 0 9999px;
+.m-info .cnt {
+    float: right;
+    width: 100%;
 }
-.m-info .cnt{
-	float: right;
-	width: 100%;
-}
-.m-info .cntc{
-	margin-left: 230px;
-}
-.m-info-rank .cntc{
-	margin-left: 187px;
+.m-info .cntc {
+    margin-left: 230px;
 }
 .m-info .hd {
     position: relative;
     margin: 0 0 12px;
     line-height: 24px;
 }
-.m-info-rank .hd{
-	margin: 16px 0 4px;
+.u-icn-13 {
+    width: 54px;
+    height: 24px;
+    background-position: 0 -243px;
 }
-.m-info .hd h2{
-	line-height: 24px;
-	font-size: 20px;
-	font-weight: normal;
+.m-info .type {
+    float: left;
+    margin-right: 6px;
 }
-.m-info .user{
-	margin: 0 0 20px;
-	line-height: 35px;
+.m-info .hd .type {
+    position: relative;
+    top: 3px;
 }
-.u-icn2 {
-    background: url(../img/index/icon2.png) no-repeat 0 9999px;
+.m-info .hd h2 {
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: normal;
 }
-.u-icn, .u-icn2, .u-icn3{
-	display: inline-block;
-	overflow: hidden;
-	vertical-align: middle;
+.m-info .user {
+    margin: 0 0 20px;
+    line-height: 35px;
 }
-.u-icn-57{
-	height: 13px;
-	width: 13px;
-	background-position: -18px -682px;
+.m-info .user .face, .m-info .user .face img {
+    float: left;
+    width: 35px;
+    height: 35px;
 }
-.m-info .user .u-icn{
-	float: left;
-	margin: 9px 0 0 3px;
+.m-info .user .face {
+    margin-right: 10px;
 }
-.m-info-rank .sep{
-	margin-left: 5px;
+.m-info .user .name {
+    float: left;
 }
-.s-fc4, a.s-fc4:hover {
-    color: #999;
+.p-mymusic .m-info .user .name {
+    max-width: 210px;
 }
-.m-info .btns{
-	margin-bottom: 25px;
-	margin-right: -10px;
+.s-fc7, a.s-fc7:hover {
+    color: #0c73c2;
+}
+.m-info .user .time {
+    margin-left: 15px;
+}
+.m-info .btns {
+    margin-bottom: 25px;
+    margin-right: -10px;
 }
 .u-btn2, .u-btn2 i, .u-btn2 .icn, .u-btni, .u-btni i, .u-tag, .u-tag i, .u-btni-addply .ply {
     background: url(../img/index/button2.png) no-repeat 0 9999px;
@@ -294,18 +394,15 @@ body{
 .u-btni-cmmt i {
     background-position: 0 -1465px;
 }
-.g-wrap12{
-	padding: 0 30px 40px 40px;
-}
 .u-title {
     height: 40px;
     border-bottom: 2px solid #c20c0c;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(194, 12, 12);
 }
 .u-title-1 {
     height: 33px;
+}
+.p-mymusic .u-title-1 {
+    padding: 0 10px 0 32px;
 }
 .u-title h3 {
     float: left;
@@ -322,6 +419,9 @@ body{
 }
 .u-title-1 .sub {
     margin: 9px 0 0 20px;
+}
+.s-fc3, a.s-fc3:hover {
+    color: #666;
 }
 .u-title .more{
 	float: right;
@@ -363,20 +463,20 @@ table{
 .m-table .w1 {
     width: 74px;
 }
-.m-table-rank .first {
-    width: 77px;
-}
 .m-table th .wp {
     height: 18px;
     line-height: 18px;
     padding: 8px 10px;
     background-position: 0 -56px;
 }
-.m-table .w2-1 {
-    width: 91px;
+.m-table .w2 {
+    width: 111px;
 }
 .m-table .w3 {
     width: 14%;
+}
+.m-table .w4 {
+    width: 20%;
 }
 .m-table td {
     padding: 6px 10px;
@@ -386,19 +486,8 @@ table{
 .m-table .even td {
     background-color: #f7f7f7;
 }
-.m-table-rank td.rank {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.m-table .tt {
-    float: left;
-    width: 100%;
-}
-.m-table-rank .rpic {
-    float: left;
-    width: 50px;
-    height: 50px;
-    margin-right: 14px;
+.m-table .hd {
+    height: 18px;
 }
 .m-table .ply {
     width: 17px;
@@ -406,24 +495,24 @@ table{
     cursor: pointer;
     background-position: 0 -103px;
 }
-.m-table .ply-z-slt, .m-table .ply-z-slt:hover {
-    background-position: -20px -128px;
-}
 .m-table .ply {
     float: left;
 }
-.m-table .tt .ply {
-    margin-right: 8px;
+.m-table .hd .ply {
+    float: right;
 }
-.m-table-rank td.rank .ply {
-    margin-top: 17px;
+.m-table .hd .num {
+    width: 25px;
+    margin-left: 5px;
+    color: #999;
+}
+.m-table .tt {
+    float: left;
+    width: 100%;
 }
 .m-table .ttc {
     height: 18px;
     margin-right: 20px;
-}
-.m-table-rank td.rank .ttc {
-    margin-top: 16px;
 }
 .m-table .txt {
     position: relative;
@@ -435,12 +524,6 @@ table{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-}
-.m-table-rank .txt {
-    max-width: 92%;
-}
-.m-table-rank td.rank .txt {
-    max-width: 75%;
 }
 .m-table b {
     font-weight: normal;
@@ -478,6 +561,9 @@ table{
 .m-table .icn-dl {
     background-position: -81px -174px;
 }
+.m-table .icn-del {
+    background-position: 0 -217px;
+}
 .m-table .text {
     width: 100%;
     position: relative;
@@ -489,45 +575,11 @@ table{
 .m-table .text a {
     white-space: nowrap;
 }
-.m-table-rank .rk {
-    float: right;
-    width: 32px;
-    margin-right: -5px;
-    text-align: center;
-}
-.u-icn-75 {
-    width: 16px;
-    height: 17px;
-    background-position: -67px -283px;
-}
-.m-table-rank .rk .u-icn-75 {
-    display: block;
-    float: none;
-    margin: 0 auto;
-    padding-left: 0;
-}
-.m-table .hd {
-    height: 18px;
-}
-.m-table .hd .num {
-    width: 25px;
-    margin-left: 5px;
-    color: #999;
-}
-.m-table-rank .hd .num {
-    float: left;
-    width: 25px;
-    margin-left: 0;
-    text-align: center;
-}
-.n-cmt {
+.f-mgt40 {
     margin-top: 40px;
 }
-.s-fc3, a.s-fc3:hover {
-    color: #666;
-}
 .m-cmmt {
-    margin-top: 20px;
+    margin: 20px 32px 0;
 }
 .m-cmmt .iptarea {
     margin-bottom: 20px;
@@ -699,10 +751,16 @@ textarea.u-txt, div.u-txt {
     float: left;
     margin: 0 !important;
 }
+.u-icn2 {
+    background: url(../img/index/icon2.png) no-repeat 0 9999px;
+}
 .u-icn2-12, .u-icn2-13 {
     width: 15px;
     height: 14px;
     background-position: -150px 0;
+}
+.u-icn2-12:hover {
+    background-position: -150px -20px;
 }
 .m-cmmt .cmmts .zan {
     margin-top: -4px;
@@ -710,6 +768,12 @@ textarea.u-txt, div.u-txt {
 .m-cmmt .cmmts .sep {
     margin: 0 8px;
     color: #ccc;
+}
+.m-cmmt .cmmts .itm .dlt {
+    display: none;
+}
+.m-cmmt .cmmts .itm:hover .dlt{
+	display: inline-block;
 }
 .auto-1509790049441 {
     font-size: 12px;
@@ -767,3 +831,4 @@ div.u-page .znxt {
 .on{
 	display: none;
 }
+
