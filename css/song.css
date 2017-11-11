@@ -1,4 +1,4 @@
-body{
+body {
     min-width: 982px;
     background: #f5f5f5;
 }
@@ -15,219 +15,58 @@ body{
     white-space: nowrap;
     word-wrap: normal;
 }
-.g-mymusic {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    position: relative;
-    zoom: 1;
-}
-.g-bd3 {
-    background: url(../img/musicTop/wrap3.png) repeat-y center 0;
-}
-.g-bd3{
-    width: 980px;
-    min-height: 700px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border: 1px solid #d3d3d3;
-    border-width: 0 1px; 
-}
 .f-pr {
     position: relative;
     zoom: 1;
 }
-.g-sd3 {
+.g-bd4 {
+	width: 980px;
+    min-height: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    background: url(../img/song/wrap4.png) repeat-y center 0;
+}
+.g-mn4 {
     float: left;
-    width: 240px;
-    position: fixed;
+    width: 100%;
+    margin-right: -270px;
 }
-.n-musicsd {
-    padding-bottom: 50px;
-    padding-top: 40px;
+.g-mn4c{
+	margin-right: 271px;
 }
-.p-mymusic .g-sd3 {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
+.g-wrap6 {
+    padding: 47px 30px 40px 39px;
 }
-.n-musicsd .usersub {
-    position: relative;
-    height: 36px;
-    line-height: 36px;
+.m-lycifo {
+    margin-top: -10px;
 }
-.f-ff1 {
-    font-family: simsun,\5b8b\4f53;
-}
-.f-fs1 {
-    font-size: 14px;
-}
-.s-fc0, a.s-fc0:hover {
-    color: #000;
-}
-.n-musicsd .usersub a {
-    display: block;
-    padding: 0 5px 2px 35px;
-}
-.n-minelst-1 {
-    margin-top: 5px;
-}
-.n-minelst h2 {
-    padding: 0 10px 12px 15px;
-    font-size: 14px;
-    color: #000;
-}
-.f-fr {
-    float: right;
-}
-.u-btn, div.u-page a, div.u-page a.js-selected, div.u-page a.znxt.js-disabled, div.u-page a.zprv.js-disabled {
-    background: url(../img/musicTop/button.png) no-repeat 0 9999px;
-}
-.u-btn {
-    display: inline-block;
-}
-.u-btn-crt {
-    width: 52px;
-    height: 22px;
-    background-position: 0 -96px;
-}
-.u-btn-crt i {
-    display: inline-block;
-    line-height: 22px;
-    overflow: hidden;
-    padding-left: 20px;
-    color: #515151;
-    font-size: 12px;
-    font-weight: normal;
-}
-.n-minelst .rtitle {
-    cursor: pointer;
-}
-.n-minelst .tri {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 2px 0 5px;
-    cursor: pointer;
-    font-size: 0;
-    height: 0;
-    line-height: 0;
-}
-.n-minelst .tri1 {
-    border-color: #ccc transparent transparent;
-    border-style: solid dashed dashed;
-    border-width: 8px 7px 0;
-}
-.n-minelst ul * {
-    cursor: pointer;
-    vertical-align: middle;
-}
-.n-minelst li {
-    position: relative;
-    zoom: 1;
-    height: 42px;
-    padding: 6px 0 6px 20px;
-}
-.n-minelst li:hover{
-	background-color: #F4F2F2;
-}
-.n-minelst li.z-selected, .n-minelst li.z-selected:hover {
-    background: #e6e6e6;
-}
-.n-minelst .item {
-    padding-left: 50px;
-}
-.n-minelst .left {
-    display: inline;
+.m-lycifo .cvrwrap {
     float: left;
-    margin-left: -50px;
-    overflow: hidden;
-    width: 40px;
+    width: 206px;
+    margin-right: -226px;
 }
-.n-minelst .avatar {
-    display: block;
-    position: relative;
-    width: 40px;
-    height: 40px;
-}
-.n-minelst .avatar img {
-    width: 40px;
-    height: 40px;
-}
-.n-minelst .name {
-    width: 150px;
-    overflow: hidden;
-    margin-top: 2px;
-    margin-bottom: 8px;
-}
-.n-minelst .name a {
-    white-space: nowrap;
-}
-.s-fc4, a.s-fc4:hover {
-    color: #999;
-}
-.n-minelst .num {
-    width: 130px;
-}
-.n-minelst .oper {
-	display: none;
-    position: absolute;
-    bottom: 7px;
-    right: 0;
-}
-.n-minelst li:hover .oper{
-	display: block;
-}
-.u-icn, .u-title-1 .out .icon {
-    background: url(../img/index/icon.png) no-repeat 0 9999px;
-}
-.u-icn, .u-icn2, .u-icn3 {
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: middle;
-}
-.u-icn-10 {
-    width: 13px;
-    height: 13px;
-    background-position: 0 -270px;
-}
-.u-icn-11 {
-    width: 13px;
-    height: 14px;
-    background-position: 0 -284px;
-}
-.n-minelst .oper .u-icn {
+.f-fl {
     float: left;
-    margin-right: 10px;
-}
-.g-mn3{
-	height: 100%;
-	width: 740px;
-	float: right;
-	padding-bottom: 50px;
-}
-.g-wrap{
-	padding: 40px;
 }
 .u-cover {
     position: relative;
     display: block;
 }
-.u-cover-dj {
-    width: 200px;
-    height: 200px;
-}
-.m-info .cover {
-    float: left;
-    position: relative;
-    display: inline;
-    margin: 0 -220px 0 0;
-}
-img, .txt {
-    border: 0;
+.u-cover-6 {
+    width: 198px;
+    height: 198px;
 }
 .u-cover img {
     display: block;
     width: 100%;
     height: 100%;
+}
+.u-cover-6 img {
+    width: 130px;
+    height: 130px;
+    margin: 34px;
 }
 .u-cover .bottom, .u-cover .msk, .n-musicsd .lst .avatar .msk {
     background: url(../img/index/coverall.png) no-repeat;
@@ -238,67 +77,76 @@ img, .txt {
     left: 0;
     width: 100%;
     height: 100%;
-}	 
-.u-cover-dj .msk {
-    width: 208px;
-    height: 208px;
-    background-position: 0 -1285px;
+}
+.u-cover-6 .msk {
+    width: 206px;
+    height: 205px;
     top: -4px;
     left: -4px;
+    background-position: -140px -580px;
 }
-.m-info .cnt {
+.s-fc3, a.s-fc3:hover {
+    color: #666;
+}
+.m-lycifo .cvrwrap .out {
+    float: left;
+    margin: 20px 0 0 46px;
+}
+.u-icn, .u-title-1 .out .icon {
+    background: url(../img/index/icon.png) no-repeat 0 9999px;
+}
+.u-icn, .u-icn2, .u-icn3 {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.u-icn-95 {
+    width: 16px;
+    height: 16px;
+    background-position: -34px -863px;
+}
+.m-lycifo .cnt {
     float: right;
-    width: 100%;
+    width: 414px;
 }
-.m-info .cntc {
-    margin-left: 230px;
+.m-lycifo .cnt {
+    float: right;
+    width: 414px;
 }
-.m-info .hd {
-    position: relative;
-    margin: 0 0 12px;
-    line-height: 24px;
-}
-.u-icn-13 {
+.u-icn-37 {
     width: 54px;
     height: 24px;
-    background-position: 0 -243px;
+    background-position: 0 -463px;
 }
-.m-info .type {
+.m-lycifo .hd .lab {
     float: left;
-    margin-right: 6px;
 }
-.m-info .hd .type {
+.m-lycifo .tit {
+    margin-left: 64px;
     position: relative;
-    top: 3px;
+    top: -6px;
+    font-size: 24px;
 }
-.m-info .hd h2 {
-    line-height: 24px;
-    font-size: 20px;
-    font-weight: normal;
+.f-ff2 {
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
 }
-.m-info .user {
-    margin: 0 0 20px;
-    line-height: 35px;
+.m-lycifo .tit * {
+    vertical-align: middle;
 }
-.m-info .user .face, .m-info .user .face img {
-    float: left;
-    width: 35px;
-    height: 35px;
+.m-lycifo .tit em {
+    margin-right: 7px;
 }
-.m-info .user .face {
-    margin-right: 10px;
+.s-fc4, a.s-fc4:hover {
+    color: #999;
 }
-.m-info .user .name {
-    float: left;
+.m-lycifo .des {
+    margin: 10px 0;
 }
-.p-mymusic .m-info .user .name {
-    max-width: 210px;
+.m-lycifo .des span {
+    color: #333;
 }
 .s-fc7, a.s-fc7:hover {
     color: #0c73c2;
-}
-.m-info .user .time {
-    margin-left: 15px;
 }
 .m-info .btns {
     margin-bottom: 25px;
@@ -394,6 +242,36 @@ img, .txt {
 .u-btni-cmmt i {
     background-position: 0 -1465px;
 }
+.f-ib {
+    display: inline-block;
+}
+.f-brk {
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+.m-lycifo .bd {
+    height: 299px;
+    margin-top: 13px;
+    line-height: 23px;
+}
+.m-lycifo .bd-open {
+    height: auto;
+}
+.m-lycifo .crl {
+    margin-top: 5px;
+}
+.u-icn-69, .u-icn-70 {
+    width: 11px;
+    height: 8px;
+    background-position: -65px -520px;
+}
+.u-icn-70 {
+    background-position: -45px -520px;
+}
+.n-cmt {
+    margin-top: 40px;
+}
 .u-title {
     height: 40px;
     border-bottom: 2px solid #c20c0c;
@@ -423,163 +301,8 @@ img, .txt {
 .s-fc3, a.s-fc3:hover {
     color: #666;
 }
-.u-title .more{
-	float: right;
-	margin-top: 14px;
-}
-.u-title-1 .more{
-	margin-top: 5px;
-}
-strong, b {
-    font-weight: bold;
-}
-.s-fc6, a.s-fc6:hover {
-    color: #c20c0c;
-}
-table{
-	border-collapse: collapse;
-	border-spacing: 0;
-	table-layout: fixed;
-}
-.m-table{
-	width: 100%;
-	border: 1px solid #d9d9d9;
-}
-.m-table th, .m-table th .wp, .m-table td, .m-table .ply, .m-table .mv, .m-table .icn, .m-info .edit {
-    background: url(../img/musicTop/table.png) no-repeat 0 9999px;
-}
-.m-table th {
-    vertical-align: top;
-    text-align: left;
-    font-weight: normal;
-    color: #666;
-}
-.m-table th {
-    height: 38px;
-    background-color: #f7f7f7;
-    background-position: 0 0;
-    background-repeat: repeat-x;
-}
-.m-table .w1 {
-    width: 74px;
-}
-.m-table th .wp {
-    height: 18px;
-    line-height: 18px;
-    padding: 8px 10px;
-    background-position: 0 -56px;
-}
-.m-table .w2 {
-    width: 111px;
-}
-.m-table .w3 {
-    width: 14%;
-}
-.m-table .w4 {
-    width: 20%;
-}
-.m-table td {
-    padding: 6px 10px;
-    line-height: 18px;
-    text-align: left;
-}
-.m-table .even td {
-    background-color: #f7f7f7;
-}
-.m-table .hd {
-    height: 18px;
-}
-.m-table .ply {
-    width: 17px;
-    height: 17px;
-    cursor: pointer;
-    background-position: 0 -103px;
-}
-.m-table .ply {
-    float: left;
-}
-.m-table .hd .ply {
-    float: right;
-}
-.m-table .hd .num {
-    width: 25px;
-    margin-left: 5px;
-    color: #999;
-}
-.m-table .tt {
-    float: left;
-    width: 100%;
-}
-.m-table .ttc {
-    height: 18px;
-    margin-right: 20px;
-}
-.m-table .txt {
-    position: relative;
-    display: inline-block;
-    padding-right: 25px;
-    margin-right: -25px;
-    max-width: 99%;
-    height: 20px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-.m-table b {
-    font-weight: normal;
-}
-.m-table .opt {
-    float: left;
-}
-.m-table .hshow {
-    display: none;
-}
-.u-icn-81 {
-    width: 13px;
-    height: 13px;
-    background-position: 0 -700px;
-}
-.m-table .u-icn-81 {
-    float: left;
-    margin-top: 2px;
-}
-.m-table .mv, .m-table .icn {
-    float: left;
-    width: 18px;
-    height: 16px;
-    margin: 2px 0 0 4px;
-    overflow: hidden;
-    text-indent: -999px;
-    cursor: pointer;
-}
-.m-table .icn-fav {
-    background-position: 0 -174px;
-}
-.m-table .icn-share {
-    background-position: 0 -195px;
-}
-.m-table .icn-dl {
-    background-position: -81px -174px;
-}
-.m-table .icn-del {
-    background-position: 0 -217px;
-}
-.m-table .text {
-    width: 100%;
-    position: relative;
-    zoom: 1;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-.m-table .text a {
-    white-space: nowrap;
-}
-.f-mgt40 {
-    margin-top: 40px;
-}
 .m-cmmt {
-    margin: 20px 32px 0;
+    margin-top: 20px;
 }
 .m-cmmt .iptarea {
     margin-bottom: 20px;
@@ -775,7 +498,7 @@ textarea.u-txt, div.u-txt {
 .m-cmmt .cmmts .itm:hover .dlt{
 	display: inline-block;
 }
-.auto-1509790049441 {
+.auto-1509759547054 {
     font-size: 12px;
     line-height: 160%;
 }
@@ -831,5 +554,128 @@ div.u-page .znxt {
 .on{
 	display: none;
 }
-
-
+.g-sd4 {
+    position: relative;
+    float: right;
+    width: 270px;
+    zoom: 1;
+}
+.g-wrap7 {
+    padding: 20px 40px 40px 30px;
+}
+.u-hd3 {
+    position: relative;
+    height: 23px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+.m-piclist {
+    margin-left: -13px;
+    padding-bottom: 25px;
+}
+.m-piclist li, .m-piclist li img {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.m-piclist li {
+    display: inline;
+    padding: 0 0 13px 13px;
+}
+.m-rctlist {
+    margin-bottom: 25px;
+}
+.m-rctlist li {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+    line-height: 24px;
+}
+.u-cover-3 {
+    width: 50px;
+    height: 50px;
+}
+.m-rctlist .cver, .n-rctlist .cver img {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.m-rctlist .cver {
+    margin-right: -60px;
+}
+.m-rctlist .info {
+    margin-left: 60px;
+    line-height: 24px;
+}
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.m-rctlist .info p {
+    width: 140px;
+}
+.f-fs1 {
+    font-size: 14px;
+}
+.s-fc0, a.s-fc0:hover {
+    color: #000;
+}
+.s-fc4, a.s-fc4:hover {
+    color: #999;
+}
+.m-rctlist .by {
+    float: left;
+}
+.m-rctlist .nm {
+    float: left;
+    max-width: 106px;
+    margin: 0 2px 0 4px;
+}
+.u-icn-1 {
+    width: 11px;
+    height: 13px;
+    background-position: 0 1px;
+    font-size: 100%;
+    font-style: normal;
+}
+.m-rctlist sup {
+    margin-top: -1px;
+}
+.m-sglist {
+    margin-bottom: 25px;
+}
+.m-sglist li {
+    margin-top: 10px;
+}
+.m-sglist .txt {
+    float: left;
+    width: 156px;
+    line-height: 16px;
+}
+.s-fc1 {
+    color: #333;
+}
+.m-sglist .opr {
+    float: right;
+    position: relative;
+    top: 10px;
+    line-height: 32px;
+}
+.m-sglist .opr a {
+    float: left;
+    width: 10px;
+    height: 11px;
+    background: url(../img/index/icon2.png) no-repeat -9999px -9999px;
+    opacity: 0.9;
+}
+.m-sglist .opr .play {
+    margin-right: 16px;
+    background-position: -69px -455px;
+}
+.m-sglist .opr .add {
+    background-position: -87px -454px;
+}
